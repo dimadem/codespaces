@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "ms-python.flake8",
+    "ms-vscode.typescript-javascript-grammar"
+  ]
+}
