@@ -1,6 +1,25 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
-  "features": {
-    
+ "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ms-python.flake8"
+      ],
+      "settings": {
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.flake8"
+        },
+        "[typescript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+      }
+    }
   }
 }
